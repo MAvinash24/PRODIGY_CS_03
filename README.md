@@ -45,5 +45,5 @@ cd PRODIGY_CS_03
 python password_checker.py
 ```
 
-#Screenshot of GUI
+### Screenshot of GUI
 ![Password_Complexity_Checker GUI](https://github.com/user-attachments/assets/8470bf50-50b8-4146-8298-32a3f7089228)
