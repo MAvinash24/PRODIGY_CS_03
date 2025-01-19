@@ -4,6 +4,8 @@
 
 This is a simple Password Complexity Checker tool built using Python's Tkinter library. It evaluates the strength of a password based on various factors such as length, uppercase and lowercase letters, digits, and special characters. The application provides real-time feedback on the password's strength and suggests improvements.
 
+---
+
 ### Features
 
 - **Password Visibility Toggle**: The password can be toggled between hidden (asterisks) and visible text to ensure the user can easily check what they typed.
@@ -18,6 +20,8 @@ This is a simple Password Complexity Checker tool built using Python's Tkinter l
   - Medium Strength Password
   - Strong Password
 
+---
+
 ### Requirements
 
 This project requires Python 3.x and the Tkinter library (usually comes pre-installed with Python).
@@ -27,6 +31,8 @@ To install the required libraries, you can use the following command:
 ```bash
 pip install tk
 ```
+
+---
 
 ### Installation
 
@@ -44,6 +50,8 @@ cd PRODIGY_CS_03
 ```bash
 python password_checker.py
 ```
+
+---
 
 ### Screenshot of GUI
 ![Password_Complexity_Checker GUI](https://github.com/user-attachments/assets/8470bf50-50b8-4146-8298-32a3f7089228)
