@@ -5,19 +5,19 @@ class PasswordAnalyzer:
     def __init__(self, root):
         self.root = root
         self.root.title("Password Complexity Checker")
-        self.root.geometry("700x500")  # Increase the window size to 700x500
+        self.root.geometry("700x500")  
         self.root.config(bg="#f2f2f2")  
-        self.root.resizable(True, True)  # Allow the window to be resized by the user
+        self.root.resizable(True, True) 
         
         self.font = ("Arial", 12)
 
         input_frame = tk.Frame(self.root, bg="#f2f2f2")
-        input_frame.pack(pady=30)  # Increased padding for larger window
+        input_frame.pack(pady=30)  
 
         password_label = tk.Label(input_frame, text="Enter your password:", font=self.font, bg="#f2f2f2")
         password_label.pack()
 
-        self.password_entry = tk.Entry(input_frame, width=40, font=self.font, show="*")  # Increased width of the entry field
+        self.password_entry = tk.Entry(input_frame, width=40, font=self.font, show="*") 
         self.password_entry.pack(pady=15)
 
         self.show_button = tk.Button(input_frame, text="Show Password", font=self.font, command=self.toggle_password_visibility)
