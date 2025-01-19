@@ -30,23 +30,20 @@ pip install tk
 
 ### Installation
 
-1.Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/MAvinash24/PRODIGY_CS_03.git
 ```
 
-2.Navigate to project directory:
+2. Navigate to project directory:
 ```bash
 cd PRODIGY_CS_03
 ```
 
-3.Run the tool:
+3. Run the tool:
 ```bash
 python password_checker.py
 ```
 
 #Screenshot of GUI
 ![Password_Complexity_Checker GUI](https://github.com/user-attachments/assets/8470bf50-50b8-4146-8298-32a3f7089228)
-
-
-
